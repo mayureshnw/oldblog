@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title></title>
-		<description>A small and simple site I made to test out Jekyll. Watch out! I&#39;m going to make a material design theme next!</description>		
+		<description>A small and simple site I made to test out Jekyll.</description>		
 		<link>http://localhost:3000</link>
 		<atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml" />
 		
@@ -26,7 +26,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<pubDate>Sat, 19 Mar 2016 17:40:41 +0000</pubDate>
+				<pubDate>Sat, 19 Mar 2016 23:10:41 +0530</pubDate>
 				<link>http://localhost:3000/post/jek/</link>
 				<guid isPermaLink="true">http://localhost:3000/post/jek/</guid>
 			</item>
@@ -82,7 +82,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Sed imperdiet interdum ultrices. Phasellus iaculis porttitor lorem nec scelerisque. Suspendisse eros urna, adipiscing vel luctus at, feugiat sit amet arcu. Aliquam porttitor ut urna pellentesque sagittis. Donec pellentesque venenatis diam sit amet cursus. Etiam luctus, metus quis gravida fermentum, tortor arcu consequat metus, eget viverra augue risus ac dui. Fusce faucibus scelerisque quam eu sagittis. Sed sit amet sapien non augue lobortis adipiscing. Sed sagittis at lectus eu tempus. Nulla non nulla ut ante condimentum mattis vel at lectus. Nulla ultricies dui et urna semper ultrices. Sed neque ante, dictum in dignissim luctus, facilisis ornare odio. Aenean tempor ultrices magna non pharetra. Curabitur vulputate nec est aliquet suscipit. Etiam ipsum sapien, dictum quis tristique vel, pretium at elit.&lt;/p&gt;
 </description>
-				<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+				<pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
 				<link>http://localhost:3000/post/tes/</link>
 				<guid isPermaLink="true">http://localhost:3000/post/tes/</guid>
 			</item>
