@@ -1,40 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+title: Home
+group: navigation
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+  {% for post in paginator.posts %}
+      <article>
+      <div class="heading"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      <p class="meta"><a class="permalink" href="{{ post.url }}">&#9679;</a> {{ post.date | date_to_string }}</p>
+      <div>
+        {{ post.content }}
+        </div>
+             {% include tags.html %}
+     </article>
+     <hr>
+  {% endfor %}
 
-    <title>Blog by Mnw2212</title>
-  </head>
 
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Blog</h1>
-        <h2></h2>
-
-        <section id="downloads">
-          <a href="https://github.com/Mnw2212/blog/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/Mnw2212/blog/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/Mnw2212/blog" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="blog" class="anchor" href="#blog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>blog</h1>
-
-<p>This is the start of the blog I write</p>
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+<ul class="pager">
+  {% if paginator.previous_page %}
+      <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer</a></li>
+  {% endif %}
+    {% if paginator.next_page %}
+      <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &rarr;</a></li>
+  {% endif %}
+</ul>
