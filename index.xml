@@ -6,25 +6,50 @@
     <description>Recent content on &lt;/ Rocode &gt; </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:43:27 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 22:35:41 +0530</lastBuildDate>
     <atom:link href="http://mayureshwaykole.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://mayureshwaykole.me/blog/post/first/</link>
-      <pubDate>Wed, 27 Apr 2016 00:43:27 +0530</pubDate>
+      <title>hapi angularCD</title>
+      <link>http://mayureshwaykole.me/blog/post/hapi-angularCD/</link>
+      <pubDate>Wed, 27 Apr 2016 22:35:41 +0530</pubDate>
       
-      <guid>http://mayureshwaykole.me/blog/post/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>good to great</title>
-      <link>http://mayureshwaykole.me/blog/post/good-to-great/</link>
-      <pubDate>Wed, 27 Apr 2016 00:21:45 +0530</pubDate>
-      
-      <guid>http://mayureshwaykole.me/blog/post/good-to-great/</guid>
-      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+      <guid>http://mayureshwaykole.me/blog/post/hapi-angularCD/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../angular-hapi.jpg&#34; alt=&#34;A placeholder for image&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hapi-angular-cd-continuous-delivery-setup:9b727d46b4c583b133e1514463780ad4&#34;&gt;Hapi-Angular CD (Continuous Delivery) Setup&lt;/h3&gt;
+
+&lt;h3 id=&#34;angular-hapi-app:9b727d46b4c583b133e1514463780ad4&#34;&gt;Angular-Hapi app&lt;/h3&gt;
+
+&lt;p&gt;The first thing to do would be to create an &lt;a href=&#34;https://docs.angularjs.org/guide&#34;&gt;Angular&lt;/a&gt; app that will need a server, which in this case would be a &lt;a href=&#34;http://hapijs.com/&#34;&gt;Hapi.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;creating-an-angular-app-using-yeoman:9b727d46b4c583b133e1514463780ad4&#34;&gt;Creating an Angular app using Yeoman&lt;/h4&gt;
+
+&lt;h4 id=&#34;general-gulp-task-s:9b727d46b4c583b133e1514463780ad4&#34;&gt;General gulp task&amp;rsquo;s&lt;/h4&gt;
+
+&lt;p&gt;Trying gulp serve and gulp build&lt;/p&gt;
+
+&lt;h4 id=&#34;creating-hapi-server:9b727d46b4c583b133e1514463780ad4&#34;&gt;Creating Hapi Server&lt;/h4&gt;
+
+&lt;p&gt;Create the hapi config&lt;/p&gt;
+
+&lt;h4 id=&#34;final-hapi-running-angular:9b727d46b4c583b133e1514463780ad4&#34;&gt;Final Hapi running Angular&lt;/h4&gt;
+
+&lt;h3 id=&#34;github-circle-ci-hook:9b727d46b4c583b133e1514463780ad4&#34;&gt;Github Circle CI hook&lt;/h3&gt;
+
+&lt;h3 id=&#34;circleci-heroku-deploy:9b727d46b4c583b133e1514463780ad4&#34;&gt;CircleCI heroku deploy&lt;/h3&gt;
+
+&lt;h4 id=&#34;adding-heroku-webhook-to-circleci:9b727d46b4c583b133e1514463780ad4&#34;&gt;Adding heroku webhook to CircleCI&lt;/h4&gt;
+
+&lt;h4 id=&#34;writing-circle-yaml:9b727d46b4c583b133e1514463780ad4&#34;&gt;Writing Circle.yaml&lt;/h4&gt;
+
+&lt;h4 id=&#34;modifying-package-json-to-allow-continuous-deployment:9b727d46b4c583b133e1514463780ad4&#34;&gt;Modifying package.json to allow continuous deployment&lt;/h4&gt;
+
+&lt;h4 id=&#34;the-missing-piece-tests:9b727d46b4c583b133e1514463780ad4&#34;&gt;The missing piece =&amp;gt; tests&lt;/h4&gt;
+
+&lt;h4 id=&#34;pass-tests-to-deploy-else-don-t:9b727d46b4c583b133e1514463780ad4&#34;&gt;Pass tests to deploy, else don&amp;rsquo;t&lt;/h4&gt;
 </description>
     </item>
     
